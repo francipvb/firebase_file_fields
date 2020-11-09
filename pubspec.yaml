@@ -1,0 +1,25 @@
+name: firebase_file_fields
+description: A new flutter plugin project.
+version: 0.0.1
+author:
+homepage:
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.20.0 <2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The image picker dependency
+  image_picker: ^0.6.7
+
+  # We depend on firebase storage plugin:
+  firebase_storage: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  mockito: any
